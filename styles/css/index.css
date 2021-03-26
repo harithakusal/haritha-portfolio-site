@@ -1,0 +1,834 @@
+.cover-container{
+    width: 100%;
+    background:  #100f37;
+    background-size: contain;
+    color: white;
+    background: linear-gradient(-65deg, rgb(255, 4, 19, 0.20) 25%, rgba(16, 15, 55, 0.50) 25%), url('../../images/site-assets/cover-bkg.jpg') repeat;
+}
+
+.cover{
+    max-width: 1200px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    position: relative;
+}
+
+.cover .left-side h1{
+    font-size: 65px;
+    font-weight: 700;    
+}
+
+.cover .left-side h1 span{
+    color: #ff0413;
+}
+
+.cover .left-side p{
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom: 1px solid #6b6b6b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cover .left-side button{
+    padding: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .3s;
+    margin-right: 10px;
+    font-size: 600;
+}
+
+.cover .left-side #cv{
+    background-color:  #ff0413;
+    border:1px solid#ff0413;
+}
+
+.cover .left-side #contact{
+    background:  none;
+    border:1px solid white;
+}
+
+.cover .left-side #cv:hover{
+    background-color:  #c5000d;
+    border:1px solid #c4000d;
+}
+
+.cover .left-side #contact:hover{
+    background:  white;
+    color: black;
+}
+
+.cover .left-side button:hover{
+    cursor: pointer;
+}
+
+.cover .right-side img{
+    width: 450px;
+}
+
+.about-me{
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-items: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.about-me img{
+    border-radius: 250px;
+    box-shadow: 0px 0px 10px 1px #0000005d;
+}
+
+.about-me #desk-dp{
+    width: 250px;
+}
+
+.about-me #mob-dp{
+    display: none;
+}
+
+.about-me h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-me h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    color: #ff0413;
+}
+
+.about-me button{
+    margin-top: 20px;
+}
+
+.about-me button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: .3s;
+    margin-right: 10px;
+    background:  none;
+    border:none;
+    transition: 0.3s;
+    background-color: #ff0413;
+    color: white;
+}
+
+.about-me button:hover{
+   cursor: pointer;
+   background-color: #ff0413;
+}
+
+.education-container{
+    background-color: rgb(236, 236, 236);
+    padding: 40px 0;
+    margin-bottom: 50px;
+    height: 340px;
+}
+
+.education img{
+    width: 45px;
+    margin-bottom: 5px;
+}
+
+.education-container h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.education-container h2{
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+    color: #ff0413;
+    text-align: center;
+}
+
+.education-container .education{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.education h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.education h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.education p{
+    font-size: 15px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.featured-projects-container{
+    text-align: center;
+    height: 400px;
+}
+
+.featured-projects-container h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.featured-projects-container h2{
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+    color: #ff0413;
+}
+
+.featured-projects{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 100px;
+}
+
+.featured-projects .section{
+    height: 200px;
+    transition: 0.3s;
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    overflow: auto;
+
+}
+
+.featured-projects .section:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.featured-projects .section img{
+    width: 50px;
+}
+
+.featured-projects .section h3{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.featured-projects .section p{
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.featured-projects .section p:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.featured-projects-container button{
+    padding: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .3s;
+    margin-right: 10px;
+    font-size: 600;
+    background-color:  #ff0413;
+    border: 1px solid #ff0413;
+    margin-top: 50px;
+}
+
+.featured-projects-container button:hover{
+   color: black;
+   background-color: white;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.skills-container{
+    background-color: #100f37;
+    color: rgb(240, 240, 240);
+    padding-bottom: 20px;
+    margin-top: 60px;
+    height: 360px;
+}
+
+.skills-container h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.skills-container h2{
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+    color: #ff0413;
+    text-align: center;
+}
+
+.skills{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.skills p{
+    display: inline;
+    opacity: 0.9;
+}
+
+.skills .right{
+    position: absolute;
+    right: 0;
+}
+
+.skills .oop{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.skills .oop .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .oop .inside-bar{
+    width: 85%;
+    height: 3px;
+    background-color: #ff0413;
+}
+
+.skills .html{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.skills .html .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .html .inside-bar{
+    width: 50%;
+    height: 3px;
+    background-color:#ff0413;
+}
+
+.skills .c-pro{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.skills .c-pro .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .c-pro .inside-bar{
+    width: 75%;
+    height: 3px;
+    background-color: #ff0413;
+}
+
+.skills .java{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.skills .java .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .java .inside-bar{
+    width: 70%;
+    height: 3px;
+    background-color: #ff0413;
+}
+
+.skills .sql{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.skills .sql .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .sql .inside-bar{
+    width: 95%;
+    height: 3px;
+    background-color:#ff0413;
+}
+
+.skills .asp{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.skills .asp .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .asp .inside-bar{
+    width: 80%;
+    height: 3px;
+    background-color: #ff0413;
+}
+
+.skills .mern{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .mern .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .mern .inside-bar{
+    width: 65%;
+    height: 3px;
+    background-color: #ff0413;
+}
+
+.skills .github{
+    position: relative;
+}
+
+.skills .github .outside-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(219, 219, 219);
+}
+
+.skills .github .inside-bar{
+    width: 80%;
+    height: 3px;
+    background-color: #ff0413;
+}
+
+.connect {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.connect h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.connect h2{
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+    color: #ff0413;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.connect h3{
+    width: max-content;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.connect h3 span{
+    font-weight: 600;
+    font-size: 16px;
+    color:#ff0413;
+}
+
+.connect .social-media{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.connect .section{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.connect .section:hover{
+    cursor: pointer;
+}
+
+.connect .social-media i{
+    font-size: 30px;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.view-counter{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.view-counter h1{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* ##################################### Start of Max-Width: 1200px ##################################### */
+
+@media only screen and (max-width: 1200px) 
+{   
+    .cover{
+        max-width: 992px;
+        grid-template-columns: auto 430px;
+    }
+    
+    .cover .left-side h1{
+        font-size: 55px;
+    }
+
+    
+    .cover .left-side h4{
+        font-size: 25px;
+    }
+    
+    .cover .right-side img{
+        width: 430px;
+    }
+    
+    .about-me{
+        max-width: 800px;
+        gap: 50px;
+    }
+    
+    .featured-projects{
+        max-width: 992px;
+        grid-template-columns: 250px 250px;
+        column-gap: 100px;
+    }
+    
+    .featured-projects .section{
+        height: 200px;
+    }
+}
+
+/* ##################################### End of Max-Width: 1200px ##################################### */
+
+
+
+/* ##################################### Start of Max-Width: 992px ##################################### */
+
+@media only screen and (max-width: 992px) {
+    .cover{
+        max-width: 768px;
+        grid-template-columns: auto 350px;
+        gap: 40px;
+    }
+    
+    .cover .left-side h1{
+        font-size: 40px;
+    }
+    
+    .cover .left-side p{
+        margin-bottom: 20px;
+    }
+    
+    .cover .left-side button{
+        font-size: 18px;
+    }
+    
+    .cover .right-side img{
+        width: 350px;
+    }
+    
+    .about-me{
+        max-width: 700px;
+        gap: 20px;
+    }
+
+    .featured-projects-container{
+        height: 350px;
+    }
+    
+    .featured-projects{
+        max-width: 768px;
+        grid-template-columns: 200px 200px;
+        column-gap: 50px;
+    }
+    
+    .featured-projects .section{
+        height: 150px;
+        padding: 5px;
+    }
+
+    .featured-projects .section h3{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .featured-projects .section p{
+        font-size: 11px;
+    }
+
+    .featured-projects-container button{
+        margin-top: 50px;
+    }
+}
+
+/* ##################################### End of Max-Width: 992px ##################################### */
+
+
+
+/* ##################################### start of Max-Width: 768px ##################################### */
+
+@media only screen and (max-width: 768px) {
+    .cover-container{
+        background-size: cover;
+    }
+
+    .cover{
+        grid-template-columns: 100%;
+        text-align: center;
+        height: auto;
+        justify-items: center;
+    }
+
+    .cover .left-side h1{
+       margin-top: 60px;
+       font-size: 55px;
+    }
+
+    .cover .left-side p{
+        font-size: 25px;
+    }
+
+    .cover .left-side button{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .cover .right-side img{
+        width: 100%;
+        max-width: 400px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .about-me{
+        grid-template-columns: auto;
+        margin-top: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .about-me #desk-dp{
+        display: none;
+    }
+    
+    .about-me #mob-dp{
+        display: inline-block;
+        width: 200px;
+    }
+
+    .about-me h1{
+        font-size: 30px;
+    }
+
+    .about-me h2{
+        font-size: 25px;
+    }
+
+    .about-me p{
+        padding: 20px;
+    }
+
+    .about-me button{
+        margin-top: 10px;
+    }
+
+    .featured-projects-container{
+        height: auto;
+    }
+
+    .featured-projects-container h1{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .featured-projects{
+        grid-template-columns: 270px 270px;
+        column-gap: 20px;
+    }
+
+    .featured-projects .section{
+        height: 230px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .featured-projects .section h3{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .featured-projects .section p{
+        font-size: 16px;
+        margin-top: -20px;
+    }
+
+    .featured-projects-container button{
+        margin-top: 40px;
+    }
+
+    .skills-container{
+        height: auto;
+    }
+
+    .skills-container h1{
+        font-size: 30px;
+    }
+
+    .skills{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 70%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        justify-content: center;
+        column-gap: 100px;
+    }
+
+    .connect h1{
+        font-size: 30px;
+    }
+
+    .connect .social-media{
+        grid-template-columns: max-content;
+        justify-items: baseline;
+    }
+}
+
+/* ##################################### End of Max-Width: 768px ##################################### */
+
+
+
+/* ##################################### Start of Max-Width: 600px ##################################### */
+
+@media only screen and (max-width: 600px) {
+    .covid-dashboard div{
+        grid-template-columns: 50% 50%;
+        margin-top: 10px;
+    }
+
+    .covid-dashboard div p{
+        margin-top: 10px;
+    }
+
+    .cover .left-side h1{
+        font-size: 40px;
+    }
+
+    .cover .left-side p{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .cover .right-side img{
+        max-width: 350px;
+    }
+    
+    .about-me h2{
+        font-size: 18px;
+    }
+
+    .featured-projects{
+        grid-template-columns: 100%;
+        width: 250px;
+    }
+
+    .featured-projects .section{
+        height: 200px;
+    }
+
+    .featured-projects .section h3{
+        font-size: 18px;
+    }
+
+    .featured-projects .section p{
+        font-size: 13px;
+    }
+}
+
+/* ##################################### End of Max-Width: 600px ##################################### */

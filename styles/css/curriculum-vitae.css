@@ -1,0 +1,134 @@
+.cv-container {
+    background-color: rgb(235, 235, 235);
+}
+
+.cv-container .cv{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display: grid;
+    row-gap: 10px;
+    padding: 20px;
+}
+
+.cv-container .cv img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #0000005d;
+}
+
+.cv-container p{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.cv-container p a{
+    text-decoration: none;
+    color: #ff0413;
+}
+
+.connect {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.connect h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.connect h2{
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+    color: #ff0413;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.connect h3{
+    width: max-content;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.connect h3 span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #ff0413;
+}
+
+.connect .social-media{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    margin-top: 20px;
+    row-gap: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.connect .section{
+    display: flex;
+}
+
+.connect .section:hover{
+    cursor: pointer;
+}
+
+.connect .social-media i{
+    font-size: 30px;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+#zoom-dwnld:hover {
+    font-weight: 50;
+}
+
+/* ##################################### Start of Max-Width: 1200px ##################################### */
+
+@media only screen and (max-width: 1200px) {   
+
+}
+
+/* ##################################### End of Max-Width: 1200px ##################################### */
+
+
+
+/* ##################################### Start of Max-Width: 992px ##################################### */
+
+@media only screen and (max-width: 992px) {
+
+}
+
+/* ##################################### End of Max-Width: 992px ##################################### */
+
+
+
+/* ##################################### start of Max-Width: 768px ##################################### */
+
+@media only screen and (max-width: 768px) {
+    .connect h1{
+        font-size: 30px;
+    }
+
+    .connect .social-media{
+        grid-template-columns: max-content;
+        justify-items: baseline;
+    }
+}
+
+/* ##################################### End of Max-Width: 768px ##################################### */
+
+
+
+/* ##################################### Start of Max-Width: 600px ##################################### */
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* ##################################### End of Max-Width: 600px ##################################### */
