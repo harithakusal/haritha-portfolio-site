@@ -1,12 +1,13 @@
 body {
-    background-color:#dedcdc;
+    background-color:#fcfcfd;
 }
 
 .wrapper {
     text-align: center;
-    font-family: Segoe UI;
-    
-    
+    font-family: Segoe UI;    
 }
 
+img {
+    width: 500px;
+}
 
