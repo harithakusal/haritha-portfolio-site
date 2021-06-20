@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Balsamiq Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    position: relative;
+}
+
+.main-menu-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.411);
+    transition: .3s;
+}
+
+.main-menu-container .main-menu{
+    width: 300px;
+    transform: translate(-100%,0);
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    overflow-y: scroll;
+    transition: .3s;
+}
+
+.main-menu .menu-topbar{
+    display: grid;  
+    height: 70px;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.main-menu .menu-topbar .menu-close-btn{
+    width: 30px;
+    justify-self: right;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.main-menu .menu-list{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.main-menu .menu-list ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: rgb(63, 63, 63);
+}
+
+.main-menu .menu-list ul li a{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+}
+
+.main-menu .menu-list ul li a:hover{
+    color:  rgb(20, 133, 224);
+}
+
+.main-menu .menu-list ul li:last-child
+{
+    border-bottom: none;
+}
+
+.header-container{
+    z-index: 1;
+}
+
+.header-container{
+    color: rgb(70, 70, 70);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 1px #9e9b9b;
+}
+
+.header{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: max-content auto max-content;  
+    align-items: center;
+    top: 0;
+    padding: 0 20px;
+}
+
+.header .site-logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.header .site-logo h1{
+    margin-left: 7px;
+    font-weight: 800;
+    font-size: 30px;
+    padding-right: 7px;
+}
+
+.header .menu-btn{
+    display: grid;
+    justify-items: right;
+}
+
+.header .menu-btn img{
+    width: 30px;
+    display: none;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 90vh;
+}
+
+.main-container .left-menu{
+    background-color: #d4d4d4;
+    padding: 20px;
+}
+
+.main-container .left-menu ul{
+    list-style: none;
+}
+
+.main-container .left-menu li{
+    padding: 10px;
+}
+
+.main-container .left-menu li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.main-container .right-content{
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+}
+
+/* ##################################### Start of Max-Width: 1200px ##################################### */
+
+@media only screen and (max-width: 1200px) {   
+
+}
+
+/* ##################################### End of Max-Width: 1200px ##################################### */
+
+
+
+/* ##################################### Start of Max-Width: 992px ##################################### */
+
+@media only screen and (max-width: 992px) {
+ 
+}
+
+/* ##################################### End of Max-Width: 992px ##################################### */
+
+
+
+/* ##################################### start of Max-Width: 768px ##################################### */
+
+@media only screen and (max-width: 768px) {
+    .header .site-logo h1{
+        border: none;
+        font-size: 28px;
+    }
+
+    .header .menu-btn img{
+        display: block;
+    }
+
+    .main-container{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .main-container .left-menu{
+        display: none;
+    }
+}
+
+/* ##################################### End of Max-Width: 768px ##################################### */
+
+
+
+/* ##################################### Start of Max-Width: 600px ##################################### */
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* ##################################### End of Max-Width: 600px ##################################### */
