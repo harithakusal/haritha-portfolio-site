@@ -124,7 +124,7 @@
 
 .main-container{
     display: grid;
-    grid-template-columns: 140px auto;
+    grid-template-columns: 150px auto;
     height: 90vh;
 }
 
