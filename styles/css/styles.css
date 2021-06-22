@@ -222,13 +222,13 @@
     margin-right: auto;
     width: 45%;
     max-width: 100%;
-    min-width: 400px;
+    min-width: 300px;
     height: auto;
 }
 
 .headline {
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .social_media {
