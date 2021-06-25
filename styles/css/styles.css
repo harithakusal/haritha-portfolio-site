@@ -240,6 +240,9 @@
     border-radius: 1000px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 
