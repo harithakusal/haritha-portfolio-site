@@ -237,7 +237,8 @@
 }
 
 .dp {
-    border-radius: 1000px;
+    width: 300px;
+    height: auto;
 }
 
 html {
