@@ -246,9 +246,16 @@ html {
 }
 
 .nav_topics {
-    background-color: #fffd99;
-    padding: 5px;
-    border-radius: 2px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: #6469fa;
+    
+}
+
+.ur {
+    text-decoration: none;
 }
 
 .topics {
@@ -271,6 +278,24 @@ html {
 }
 
 .topics-hk {
+    background-color: #fffd99;
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.topics-research {
+    background-color: #fffd99;
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.topics-linux {
     background-color: #fffd99;
     border-radius: 3px;
     padding-left: 50px;
