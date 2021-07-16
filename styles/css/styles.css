@@ -254,7 +254,7 @@ html {
     
 }
 
-.ur {
+.ur a:link, .ur a:visited {
     text-decoration: none;
 }
 
